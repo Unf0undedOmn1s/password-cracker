@@ -1,0 +1,3 @@
+This Python script is designed to crack password hashes using a dictionary attack approach. It utilizes a list of common passwords and hashes each password using the SHA-256 algorithm, comparing the resulting hash with the target hash. If a match is found, the cracked password is returned.
+The script attemps to crack passwords using the most common password list. Passwords are hashed using the SHA-256 algorithm before comparison with the target hash.
+Users can customize the list of passwords to include additional or specialized passwords.
